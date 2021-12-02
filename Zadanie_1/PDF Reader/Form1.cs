@@ -16,5 +16,17 @@ namespace PDF_Reader
         {
             InitializeComponent();
         }
+
+        private void ExitMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void OpenMenuItem_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Filter = "Файлы pdf|*.pdf";
+            openFileDialog1.ShowDialog();
+            axAcroPDF1.LoadFile(openFileDialog1.FileName);
+        }
     }
 }
