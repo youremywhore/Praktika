@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF Reader", "PDF Reader\PDF Reader.csproj", "{E4610DE5-66F8-40F2-9D74-CA2B7003F2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAnim", "WinAnim\WinAnim.csproj", "{817B5A5B-6D5A-4043-A4AE-56B8F46A99EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4610DE5-66F8-40F2-9D74-CA2B7003F2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4610DE5-66F8-40F2-9D74-CA2B7003F2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4610DE5-66F8-40F2-9D74-CA2B7003F2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4610DE5-66F8-40F2-9D74-CA2B7003F2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817B5A5B-6D5A-4043-A4AE-56B8F46A99EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817B5A5B-6D5A-4043-A4AE-56B8F46A99EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817B5A5B-6D5A-4043-A4AE-56B8F46A99EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817B5A5B-6D5A-4043-A4AE-56B8F46A99EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FA60C33-5C61-4480-952B-5415A7492A01}
+	EndGlobalSection
+EndGlobal
