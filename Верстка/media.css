@@ -1,0 +1,745 @@
+@media(max-width: 1440px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    /*HEADER*/
+    .nav{
+        height: 63px;
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .discography{
+        height: 1777.99px;
+        width: 100%;
+    }
+    .phot{
+        width: 100%;
+    }
+    .head_discography{
+        color: #9D7052;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 40px;
+    }
+    
+    .p_disc{
+        width: 600px;
+        height: 62px;
+        text-align: center;
+        color: #798285;
+        font-size: 14px;
+        margin: 51px auto;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 5%;
+    }
+    
+    .underline_dicography{
+        margin-top: -29px;
+        height: 1px;
+        width: 353px;
+        position: relative;
+        background-color: #000000;
+    }
+    .disccontent{
+        width: 700px;
+        height: 1150px;
+        margin-left: 100px;
+    }
+    .leftb{
+        width: 250px;
+        margin-left: 150px;
+    }
+    .lfirst{
+        margin-top: 60px;
+        margin-bottom: 340px;
+    }
+    .lsecond{
+        margin-top: 160px;
+    }
+    .lthird{
+        margin-top: -34px;
+    }
+    .rightb{
+        width: 450px;
+    }
+    .rfirst{
+        margin-bottom: 40px;
+    }
+    .rsecond{
+        margin-bottom: 40px;
+    }
+    .contentdisc{
+        width: 450px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+    /*DISCOGRAPHY*/
+    .concert{
+        width: 100%;
+    }
+    .tours{
+        width: 1000px;
+        height: 600px;
+        /*border: 1px solid black;*/
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        /*margin-top: 12%;*/
+        position: relative;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .head_concert{
+        color: #8DBAB3;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 40px;
+    }
+    .underline_concert{
+        margin-top: -30px;
+        height: 1px;
+        width: 353px;
+        position: relative;
+        background-color: #000000;
+    }
+    
+    .p_concert{
+        max-width: 600px;
+        max-height: 62px;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: #798285;
+        font-size: 14px;
+        margin: 57px auto;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .disccontent{
+        width: 600px;
+        height: 1150px;
+    }
+    .leftb{
+        width: 35%;
+    }
+    .lfirst{
+        margin-top: 60px;
+        margin-bottom: 340px;
+    }
+    .lsecond{
+        margin-top: 160px;
+    }
+    .lthird{
+        margin-top: -34px;
+    }
+    .rightb{
+        width: 450px;
+    }
+    .rfirst{
+        margin-bottom: 40px;
+    }
+    .rsecond{
+        margin-bottom: 40px;
+    }
+    .contentdisc{
+        width: 450px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+    /*LATCOM*/
+    .latcom{
+        width: 908px;
+    }
+    .head_latcom{
+        color: #000;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 40px;
+    }
+    
+    .underline_latcom{
+        margin-top: -30px;
+        height: 1px;
+        width: 480px;
+        position: relative;
+        background-color: #000000;
+    }
+    
+    .p_latcom{
+        max-width: 600px;
+        max-height: 38px;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: #798285;
+        font-size: 14px;
+        margin: 72px auto;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .latcom__mainnnnnn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .latcom__concert{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 23.3%;
+        background-color: #F5F6F6;
+    }
+    
+    .latcom__info{
+        width: 50%;
+        height: 100%;
+    }
+    
+    .latcom__player{
+        width: 50%;
+        height: 100%;
+    }
+
+    .latcom_button{
+        height: 50px;
+        width: 190px;
+        margin-left: 20px;
+        margin-top: 3%;
+        border: 3px solid black;
+        text-decoration: none;
+        transition: .3s ease-in-out;
+        border-radius: 5px;
+    }
+    
+
+    /*SLIDER*/
+    .slider{
+        width: 100%;
+        margin-top: -600px;
+    }
+    .slider_item{
+        height: 642px;
+        width: 100%;
+        background: url("images/slides/slider.png") no-repeat center/cover;
+    }
+    
+    .head_item{
+        height: 40px;
+        width: 90%;
+        font-size: 18px;
+        font-family: 'Dosis', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: #FFFFFF;
+        margin: -120px auto;
+    }
+    
+    .slider_item_text{
+        height: 65px;
+        width: 51%;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin: 160px auto;
+        color: #798285;
+    }
+    
+    .slider_data{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin: -100px auto;
+        text-align: center;
+        color: #798285;
+        width: 100%;
+    }
+    /*NEW*/
+    .new{
+        width: 1202px;
+    }
+    /*UPCOMING*/
+    .upcoming{
+        width: 100%;
+    }
+    .left_upcoming{
+        height: 100%;
+        width: 40%;
+    }
+    
+    .right_upcoming{
+        height: 100%;
+        width: 60%;
+    }
+    
+    .head_upcoming{
+        margin-top: 130px;
+        color: #8DBAB3;
+        text-transform: uppercase;
+        font-family: 'Dosis', sans-serif;
+        font-size: 40px;
+    }
+    
+    .underline_upcoming{
+        height: 1px;
+        width: 403px;
+        position: relative;
+        background-color: #000000;
+        margin-left: -56px;
+        margin-top: -30px;
+    }
+    
+    .first_head{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 23px;
+        margin-top: 100px;
+    }
+    
+    .upcoming_under_head{
+        height: 1px;
+        width: 12%;
+        background-color: #000;
+        margin-left: 0;
+        margin-top: -1px;
+    }
+    
+    .first_head_content{
+        height: 35px;
+        width: 275px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #798285;
+        margin-top: -10px;
+        margin-bottom: 23px;
+    }
+    
+    .vertical_first{
+        background-color: #000;
+        height: 8%;
+        width: 2px;
+        margin-left: 30px;
+    }
+    
+    .data_upcoming{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #808080;
+    }
+    
+    .vertical_second{
+        background-color: #000;
+        height: 18%;
+        width: 2px;
+        margin-left: 30px;
+    }
+    
+    .second_head{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 23px;
+    }
+    
+    .second_head_content{
+        height: 111px;
+        width: 444px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #798285;
+        margin-bottom: 50px;
+        margin-top: -10px;
+    }
+    /*HISTORY*/
+    .history{
+        width: 100%;
+    }
+    .first_date{
+        font-size: 25px;
+        margin-left: 25px;
+    }
+    .second_date{
+        font-size: 25px;
+        width: 100px;
+        text-align: center;
+    }
+    .dates_line{
+        width: 70px;
+        height: 1px;
+        margin-top: 17px;
+    }
+    .point{
+        margin-top: 14px;
+    }
+    .head_history{
+        color: #5B5C5A;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 40px;
+        margin: 0 auto;
+    }
+    
+    .underline_history{
+        margin: -30px auto;
+        height: 1px;
+        width: 230px;
+        position: relative;
+        background-color: #000000;
+    }
+    
+    .p_history{
+        max-width: 689px;
+        max-height: 38px;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: #798285;
+        font-size: 14px;
+        margin: 132px auto;
+        font-family: 'Open Sans', sans-serif;
+    }
+    /*CONTACT*/
+    .contact{
+        width: 100%;
+    }
+    .left_contact_block{
+        height: 250px;
+        width: 40%;
+    }
+    .right_contact_block{
+        height: 400px;
+        width: 60%;
+        margin-left: 250px;
+        margin-top: 30px;
+    }
+    .vertical_contact{
+        height: 200px;
+        width: 1px;
+        background-color: black;
+        position: absolute;
+        margin-left: 460px;
+        margin-top: 20px;
+       }
+       .head_contact{
+        color: #5B5C5A;
+        text-transform: uppercase;
+        font-family: 'Dosis', sans-serif;
+        font-size: 40px;
+        margin-top: 170px;
+        margin-left: 0;
+    }
+    .underline_contact{
+        margin-top: -30px;
+        height: 1px;
+        width: 453px;
+        position: relative;
+        background-color: #000000;
+        margin-left: 3px;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 1024px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+        height: 10780px;
+    }
+    /*HEADER*/
+    .nav{
+        height: 63px;
+        width: 100%;
+        font-size: 13px;
+    }
+    .nav_link{
+        margin: 0 10px;
+    }
+    .header{
+        width: 100%;
+    }
+    /*DISCOGRAPHY*/
+    .discography{
+        height: 1777.99px;
+        width: 100%;
+    }
+    .phot{
+        width: 100%;
+    }
+    .disccontent{
+        width: 600px;
+        height: 1150px;
+    }
+    .leftb{
+        width: 250px;
+    }
+    .lfirst{
+        margin-top: 60px;
+        margin-bottom: 340px;
+    }
+    .lsecond{
+        margin-top: 160px;
+    }
+    .lthird{
+        margin-top: -34px;
+    }
+    .rightb{
+        width: 450px;
+    }
+    .rfirst{
+        margin-bottom: 40px;
+    }
+    .rsecond{
+        margin-bottom: 40px;
+    }
+    .contentdisc{
+        width: 450px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+    /*CONCERT*/
+    .concert{
+        width: 100%;
+    }
+    .tours{
+        width: 100%;
+        margin-left: 10%;
+    }
+    /*LATCOM*/
+    .latcom{
+        width: 100%;
+    }
+    .latcom__mainnnnnn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+    }
+    .latcom__concert{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 33.3%;
+        background-color: #F5F6F6;
+    }
+    
+    .latcom__info{
+        width: 50%;
+        height: 100%;
+    }
+    
+    .latcom__player{
+        width: 50%;
+        height: 100%;
+    }
+
+    .data_latcom{
+        color: #7B7C7C;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .data_latcom_underline{
+        height: 1px;
+        width: 90%;
+        background-color: #000;
+        margin-left: 20px;
+        margin-top: 3px;
+    }
+    
+    .underline_text{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 20px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+    
+    .head_block_latcom{
+        height: 45px;
+        width: 90%;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 20px;
+    }
+    
+    .latcom_content{
+        height: 62px;
+        width: 90%;
+        font-size: 12px;
+        margin-top: 10%;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 20px;
+        color: #798285;
+        margin-bottom: 4%;
+    }
+    
+    .latcom_button{
+        height: 40px;
+        width: 140px;
+        margin-left: 20px;
+        margin-top: 5%;
+        border: 3px solid black;
+        text-decoration: none;
+        transition: .3s ease-in-out;
+        border-radius: 5px;
+    }
+    
+    .latcom_button_text{
+        text-align: center;
+        margin-top: -5px;
+        height: 15px;
+        align-items: center;
+        font-size: 14px;
+    }
+    
+    .latcom_content_second{
+        height: 62px;
+        width: 90%;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 20px;
+        color: #798285;
+    }
+    /*SLIDER*/
+    .slider{
+        width: 100%;
+        margin-top: -800px;
+    }
+    .slider_item{
+        height: 642px;
+        width: 100%;
+        background: url("images/slides/slider.png") no-repeat center/cover;
+    }
+    
+    .head_item{
+        height: 40px;
+        width: 60%;
+        font-size: 16px;
+        font-family: 'Dosis', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: #FFFFFF;
+        margin: -120px auto;
+    }
+    
+    .slider_item_text{
+        height: 65px;
+        width: 40%;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin: 160px auto;
+        color: #798285;
+    }
+    
+    .slider_data{
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        margin: -100px auto;
+        text-align: center;
+        color: #798285;
+        width: 100%;
+    }
+    .slider_text{
+        height: 100%;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .slider .slick-arrow{
+        position: absolute;
+        top: 45%;
+        z-index: 10;
+        height: 131px;
+        width: 45px;
+        font-size: 0;
+        border: 0;
+        outline: none;
+    }
+    /*NEW*/
+    .new{
+        width: 900px;
+    }
+    .upblocks{
+       width: 900px; 
+    }
+    .h_block{
+        width: 200px;
+        font-size: 20px;
+    }
+    .background_block{
+        width: 280px;
+    }
+    .downblocks{
+        width: 900px;
+    }
+    .upcoming{
+        width: 100%;
+    }
+    .left_upcoming{
+        width: 40%;
+    }
+    .right_upcoming{
+        width: 60%;
+    }
+    /*HISTORY*/
+    .history{
+        width: 100%;
+    }
+    .first_date{
+        font-size: 25px;
+        margin-left: 25px;
+    }
+    .second_date{
+        font-size: 25px;
+        width: 100px;
+        text-align: center;
+    }
+    .dates_line{
+        width: 70px;
+        height: 1px;
+        margin-top: 17px;
+    }
+    .point{
+        margin-top: 14px;
+    }
+    /*CONTACT*/
+    .contact{
+        width: 100%;
+    }
+    .left_contact{
+        width: 40%;
+    }
+    .right_contact{
+        width: 60%;
+    }
+    .send{
+        background: none;
+    }
+}
+
+@media(max-width: 2560px){
+    body{
+        width: 100%;
+    }
+    .disccontent{
+        width: 1200px;
+        height: 1150px;
+        margin: 0 auto;
+    }
+    .latcom{
+        width: 80%;
+        height: 21%;
+    }
+}
